@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/new_2.css">
-    <!-- <link rel="stylesheet" href="css/grid.css"> -->
+    <link rel="stylesheet" href="css/topmenu.css">
+
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/about_us.css">
     <link rel="stylesheet" href="css/icon_animations.css">
+    <link rel="stylesheet" href="css/icomoon.css">
 
 
 
@@ -15,27 +18,50 @@
 </head>
 <body>
 
+
+    <section class="topnav">
+        <nav>
+          <input type="checkbox" id="toggle" class="menuInput">
+          <label for="toggle" class="menuLabel"><span class="icon-home"></span></label>
+          <div class="topmenu">
+            <a href="file:///Users/tryggvimac/Tskoli_onn4_2024/VEF%C3%9E2VH05BU/vef-2/Verkefni7/index.html#overlay">Main Page</a>
+
+            <a href="#">Action</a>
+            <a href="#">Strategy</a>
+            <a href="#">Puzzle</a>
+            <a href="#">Party </a>
+          </div>
+        </nav>
+      </section>
+
+
     <header>
-        <h1>Hello :)</h1>
+        <div class="animate__zoomIn">
+            <img src="images/gamelins_controller2.svg" alt="" class="header-image">
+        </div>
     </header>
 
 
-    <div>
-        <!-- <div class="buttons">
-            <button onclick="document.getElementById('gremlin').src='images/gremlin_in_cote.svg'">Turn on the light</button>
-            <button onclick="document.getElementById('gremlin').src='images/gremlin_flasher_scaned.svg'">Turn off the light</button>
-        </div> -->
-   
+    <div class="about-us-box">
+
         <div class="img-box">
             <img src="images/gremlin_in_cote.svg" alt="images/gremlin_flasher_scaned" id='gremlin' class="main_img_scaling">
         </div>
         <script src="javascript/image_toggle.js"></script>
 
+        <div>
+            <h1>About Us.</h1>
+            <p>
+                Gamelins is a small website that holds games from the internet and some classics
+                find the a game you wish to play and play.
+            </p>
+        </div>
 
     </div>
 
+
     <!-- FOOTER -->
-    <!-- <footer>
+    <footer>
 
         <fieldset><legend class="center">About Us.</legend>
             <div class="container col-3">
@@ -64,14 +90,16 @@
             </div>
 
         </fieldset>
-
-
-
-
     </footer>
     <p class="center">&copy 2024 TTB</p>
- -->
 
     
 </body>
 </html>
+
+
+
+        <!-- <div class="buttons">
+            <button onclick="document.getElementById('gremlin').src='images/gremlin_in_cote.svg'">Turn on the light</button>
+            <button onclick="document.getElementById('gremlin').src='images/gremlin_flasher_scaned.svg'">Turn off the light</button>
+        </div> -->

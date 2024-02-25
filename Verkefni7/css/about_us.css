@@ -1,6 +1,14 @@
 
 
-.img-box {
+.about-us-box {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    margin: 1rem;
+}
+
+
+/* .img-box {
     border: 1px solid red;
     display: flex;
     align-items: center;
@@ -8,7 +16,7 @@
     border: 1px solid blueviolet;
     margin: 5px auto;
     overflow: hidden;
-}
+} */
 
 .main_img_scaling {
 	/* max-width: 1200px; */
@@ -35,7 +43,18 @@
 }
 
 
+.center {
+    text-align: center;
+  }
 
 
 
 
+  @media screen and (min-width: 48rem) {
+
+    .about-us-box {
+        flex-direction: row;
+
+    }
+
+}
