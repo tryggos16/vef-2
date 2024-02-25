@@ -1,3 +1,6 @@
 # vef-2
 
-haal;ojjj
+* 23-Feb
+* started the 'About Us' page
+
+
