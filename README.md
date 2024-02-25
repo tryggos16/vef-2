@@ -1,6 +1,8 @@
 # vef-2
 
 * 23-Feb
-* started the 'About Us' page
+  started the 'About Us' page
 
 
+* 25-Feb
+  Updated the 'About Us' page
