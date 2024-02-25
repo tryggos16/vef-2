@@ -1,0 +1,66 @@
+
+
+/* main_logo */
+@keyframes zoomIn {
+  
+
+    from {
+      opacity: 0;
+    }
+  
+    20% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
+  
+.animate__zoomIn {
+    animation-name: zoomIn;
+    animation-duration: 1s;
+
+}
+
+
+
+/* Game logos */
+.icon-scale {
+    font-size: 3.8rem;
+    transition: color 0.3s, transform 0.3s;
+}
+.icon-scale:hover {
+    transform: scale(1.1, 1.2);
+    color: gold;
+}
+
+
+@media screen and (min-width: 20rem) {
+    .icon-scale {
+        font-size: 7rem;
+
+    }
+
+}
+
+@media screen and (min-width: 30rem) {
+    .icon-scale {
+        font-size: 10rem;
+
+    }
+
+}
+
+@media screen and (min-width: 37.5rem) {
+
+
+}
+
+@media screen and (min-width: 48rem) {
+
+
+
+}
+  

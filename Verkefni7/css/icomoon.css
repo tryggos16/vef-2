@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?glp3mp');
+  src:  url('fonts/icomoon.eot?glp3mp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?glp3mp') format('truetype'),
+    url('fonts/icomoon.woff?glp3mp') format('woff'),
+    url('fonts/icomoon.svg?glp3mp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quick_draw:before {
+  content: "\e907";
+}
+.icon-mine:before {
+  content: "\e904";
+}
+.icon-tic-tac:before {
+  content: "\e905";
+}
+.icon-champoinCat:before {
+  content: "\e902";
+}
+.icon-dino:before {
+  content: "\e903";
+}
+.icon-logo_2:before {
+  content: "\e901";
+}
+.icon-computer_screen:before {
+  content: "\e900";
+}
+.icon-home:before {
+  content: "\e906";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-qrcode:before {
+  content: "\e938";
+}
+.icon-bubbles3:before {
+  content: "\e96f";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-twitch:before {
+  content: "\ea9f";
+}
+.icon-steam:before {
+  content: "\eaac";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-tumblr2:before {
+  content: "\eaba";
+}
+.icon-tux:before {
+  content: "\eabd";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-windows8:before {
+  content: "\eac2";
+}
+.icon-reddit:before {
+  content: "\eac6";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-xing:before {
+  content: "\ead3";
+}

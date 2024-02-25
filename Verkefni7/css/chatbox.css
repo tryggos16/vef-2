@@ -1,0 +1,68 @@
+:root {
+
+    /* CHATBOX Colors */
+    --cb-lable-color: #333333;
+    --cb-form-color: #3291FF;
+    --cb-input-bg-color-df: white;
+    --cb-input-bg-color-active: #333333;
+
+
+}
+
+/* spjallbox */
+#popup {
+    display: none;
+}
+.chatbutt {
+    position: fixed;
+    z-index: 999;
+    right: .5rem;
+    bottom: .5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 50%;
+    background-color: var(--cb-lable-color);
+    padding: 0 .7rem;
+}
+/*þegar smellt er á checkbox # þá virkjast ~ label for # */
+#popup:checked ~ .chatbox { 
+  bottom: 0;
+  transition: all .3s ease;
+}
+.chatbox {
+  position: fixed;
+  right: .5rem;
+  bottom: -35rem;
+  transition: all .3s ease;
+}
+.chatbox form {
+    padding: 1rem;
+    background-color: var(--cb-form-color);
+    max-width: 28rem;
+    font-family: sans-serif;
+}
+.chatbox label {
+  font-size: .9rem;
+}
+.chatbox input[type=text], 
+.chatbox input[type=email], 
+.chatbox input[type=tel], 
+textarea {
+    width:100%;
+    background-color: var(--cb-input-bg-color-df);
+    color: black
+}
+.chatbox input[type=submit] {
+    border: 1px solid;
+    margin: 1rem 0;
+}
+.chatbox input[type="text"]:focus,
+.chatbox input[type="email"]:focus,
+.chatbox textarea:focus {
+  background-color: var(--cb-input-bg-color-active);
+  color: white;
+}
+.chatbox p {
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+
+
+.img-box {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blueviolet;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.main_img_scaling {
+	/* max-width: 1200px; */
+	/* margin: auto; */
+	/* display: block; */
+    width: 45rem;
+    cursor: pointer;
+}
+
+
+.scale {
+    font-size: 10rem;
+}
+
+
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid greenyellow;
+
+}
+
+
+
+
+
+

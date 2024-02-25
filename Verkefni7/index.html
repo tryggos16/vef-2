@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/new_2.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+    <!-- <link rel="stylesheet" href="css/tests.css"> -->
+    <link rel="stylesheet" href="css/chatbox.css">
+    <link rel="stylesheet" href="css/topmenu.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/icon_animations.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <title>Verk-7</title>
+</head>
+<body>
+
+    <section class="topnav">
+        <nav>
+          <input type="checkbox" id="toggle" class="menuInput">
+          <label for="toggle" class="menuLabel"><span class="icon-home"></span></label>
+          <div class="topmenu">
+            <a href="#">Action</a>
+            <a href="#">Strategy</a>
+            <a href="#">Puzzle</a>
+            <a href="#">Party </a>
+
+          </div>
+        </nav>
+      </section>
+
+
+    <header>
+        <div class="animate__zoomIn">
+            <img src="images/gamelins_controller2.svg" alt="" class="header-image">
+        </div>
+    </header>
+
+    <!-- ICON'S -->
+    <div class="div_main">
+
+        <div class="center">
+            <h2>Set-1</h2>
+        </div>
+        <section class="col-1 container">
+
+            <div class="small-box">
+                <a href="#popup1" class="icon-scale"><span class="icon-quick_draw"></span></a>
+            </div>
+
+            <div class="small-box">
+                <a href="#popup2" class="icon-scale"><span class="icon-champoinCat"></span></a>
+            </div>
+
+            <div class="small-box">
+                <a href="#popup3" class="icon-scale"><span class="icon-dino"></span></a>
+            </div>
+
+
+            <div class="small-box">
+                <a href="#popup4" class="icon-scale"><span class="icon-pacman"></span></a>
+            </div>
+
+            <div class="small-box">
+                <a href="#popup5" class="icon-scale"><span class="icon-tic-tac"></span></a>
+
+            </div>
+
+            <div class="small-box">
+                <a href="#popup6" class="icon-scale"><span class="icon-mine"></span></a>
+
+            </div>
+
+        </section>
+
+        <div class="center">
+            <h2>Set-2</h2>
+        </div>
+        <section class="col-1 container">
+
+            <div class="small-box">
+                <a href="#popup1" class="icon-scale"><span class="icon-quick_draw"></span></a>
+            </div>
+
+            <div class="small-box">
+                <a href="#popup2" class="icon-scale"><span class="icon-champoinCat"></span></a>
+            </div>
+
+            <div class="small-box">
+                <a href="#popup3" class="icon-scale"><span class="icon-dino"></span></a>
+            </div>
+
+
+            <div class="small-box">
+                <a href="#popup4" class="icon-scale"><span class="icon-pacman"></span></a>
+            </div>
+
+            <div class="small-box">
+                <a href="#popup5" class="icon-scale"><span class="icon-tic-tac"></span></a>
+
+            </div>
+
+            <div class="small-box">
+                <a href="#popup6" class="icon-scale"><span class="icon-mine"></span></a>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <fieldset><legend class="center">About Us.</legend>
+            <div class="container col-3">
+
+                <nav>
+    
+                    <ul>
+                        <p>On this site we have a "wide" variety of games</p>
+                    </ul>
+                </nav>
+    
+                <nav>
+                <ul>
+                    <li>The inspiration: "Steam" and "leikjarnet"</li>
+                </ul>
+                </nav>
+    
+                <dl>              <!--Description list -->
+                <dt>Company:</dt>
+                    <dd>Gamelins inc.</dd>
+                <dt>Mail:</dt>
+                    <dd>Gamelins@gmail.com</dd>
+                <dt>Phone:</dt>
+                    <dd>111 2525</dd>
+                </dl>   
+            </div>
+
+        </fieldset>
+
+
+
+
+      </footer>
+      <p class="center">&copy 2024 TTB</p>
+
+
+    <!-- Spjall box -->
+    <label for="popup" class="chatbutt"><span class="icon-bubbles3"></span></label>
+    <input type="checkbox" id="popup">
+    <section class="chatbox">
+      <form action="#top" method="dialog"> 
+        <fieldset> 
+          <legend>&nbsp;Spjallbox&nbsp;</legend><!--ath-->
+          <label>Nafn:</label>
+          <input type="text" placeholder="Name" name="Nafn" required>
+          <br><label>Tölvupóstur:</label>
+          <input type="email" name="TP" placeholder="Email" required>
+          <br><label>Skilaboð:</label>
+          <textarea rows='5' name="skilaboð" placeholder="Message" required></textarea>
+          <p><input type="submit" value="Senda" class="button-primary"></p>
+        </fieldset>
+        </form>
+    </section>
+
+
+    <!--popup form-->
+    <div id="popup1" class="overlay">
+        <div>
+            <a href="#overlay"> <button class="spread close"> Close </button> </a>
+        </div>
+
+        <div class="game_img_scaling">
+            <h2> "Quick Draw" </h2>
+            <img src="images/quick_draw.jpg" alt="">
+        </div>
+
+
+        <!-- Details -->
+        <div class="a-tab">
+            <input id="tab-1" class="a-check" type="checkbox">
+            <label for="tab-1" class="a-label">Details</label>
+            <div class="a-content">
+                <p>
+                    Quick, Draw! is an online Guessing game developed and published by Google that challenges players to draw a picture of an object or idea and then uses a neural network artificial intelligence to guess what the drawings represent.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Register form -->
+        <div>
+            <form action="https://quickdraw.withgoogle.com/" method="GET"><!--"POST" er notað þegar upplýsingar eru sendar úr formi-->
+                <fieldset class="register"><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
+                    <legend>Pöntun</legend>
+
+                    <p>
+                        Símanúmer: 
+                        <input  type="text" 
+                                name="sími" 
+                                placeholder="Telephone (7 digits)"
+                                title="Vinsamlegast skráið aðeins 7 tölustafi"
+                                required
+                                pattern="\d{3}(?:[\-\s]?)\d{4}">
+                    </p>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                    <p>
+                        Tölvupóstur: 
+                        <input  type="email" 
+                                name="tölvupóstur" 
+                                placeholder="Email address" 
+                                required>
+                    </p>
+
+                    <p>Skilaboð:
+                        <textarea rows="4" name="comment" placeholder="Comment"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="postlist" value="OK" id="plist" required> 
+                        <label for="plist">I agree to all terms of service</label>
+                    </p>
+                    
+                    <p><input class="buy-button" type="submit" name="submit" value="Buy Game | $2.99"></p>
+                </fieldset>
+            </form>
+        </div>
+    
+
+    </div>
+
+    <div id="popup2" class="overlay">
+        <div>
+            <a href="#overlay"> <button class="spread"> Close </button> </a>
+        </div>
+
+
+        <div class="game_img_scaling">
+            <h2> "Doodle Champion Island" </h2>
+            <img src="images/cat_champ.jpeg" alt="">
+        </div>
+
+
+        <!-- Details -->
+        <div class="a-tab">
+            <input id="tab-2" class="a-check" type="checkbox">
+            <label for="tab-2" class="a-label">Details</label>
+            <div class="a-content">
+                <p>
+                    Champion Island is the setting of Google Doodle Champion Island Games. It is an ordinary island where there is a festival that is made to celebrate the Champion Island Games. Lucky, a feline athlete, arrives here to compete against 7 champions who reside here during gameplay.
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Register form -->
+        <div>
+            <form action="https://doodles.google/doodle/doodle-champion-island-games-begin/" method="GET"><!--"POST" er notað þegar upplýsingar eru sendar úr formi-->
+                <fieldset class="register"><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
+                    <legend>Pöntun</legend>
+
+                    <p>
+                        Símanúmer: 
+                        <input  type="text" 
+                                name="sími" 
+                                placeholder="Telephone (7 digits)"
+                                title="Vinsamlegast skráið aðeins 7 tölustafi"
+                                required
+                                pattern="\d{3}(?:[\-\s]?)\d{4}">
+                    </p>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                    <p>
+                        Tölvupóstur: 
+                        <input  type="email" 
+                                name="tölvupóstur" 
+                                placeholder="Email address" 
+                                required>
+                    </p>
+
+                    <p>Skilaboð:
+                        <textarea rows="4" name="comment" placeholder="Comment"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="postlist" value="OK" id="plist" required> 
+                        <label for="plist">I agree to all terms of service</label>
+                    </p>
+                    
+                    <p><input class="buy-button" type="submit" name="submit" value="Buy Game | $2.99"></p>
+                </fieldset>
+            </form>
+        </div>
+    
+
+    </div>
+
+    <div id="popup3" class="overlay">
+        <div>
+            <a href="#overlay"> <button class="spread close"> Close </button> </a>
+        </div>
+
+
+        <div class="game_img_scaling">
+            <h2> "Dino Run" </h2>
+            <img src="images/din_game.jpg" alt="">
+        </div>
+
+
+        <!-- Details -->
+        <div class="a-tab">
+            <input id="tab-3" class="a-check" type="checkbox">
+            <label for="tab-3" class="a-label">Details</label>
+            <div class="a-content">
+                <p>
+                    The Dinosaur Game (also known as the Chrome Dino) is a browser game developed by Google and built into the Google Chrome web browser. The player guides a pixelated Tyrannosaurus rex across a side-scrolling landscape, avoiding obstacles to achieve a higher score. The game was created by members of the Chrome UX team in 2014.
+                </p>
+            </div>
+        </div>
+
+
+
+        <!-- Register form -->
+        <div>
+            <form action="https://trex-runner.com/" method="GET"><!--"POST" er notað þegar upplýsingar eru sendar úr formi-->
+                <fieldset class="register"><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
+                    <legend>Pöntun</legend>
+
+                    <p>
+                        Símanúmer: 
+                        <input  type="text" 
+                                name="sími" 
+                                placeholder="Telephone (7 digits)"
+                                title="Vinsamlegast skráið aðeins 7 tölustafi"
+                                required
+                                pattern="\d{3}(?:[\-\s]?)\d{4}">
+                    </p>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                    <p>
+                        Tölvupóstur: 
+                        <input  type="email" 
+                                name="tölvupóstur" 
+                                placeholder="Email address" 
+                                required>
+                    </p>
+
+                    <p>Skilaboð:
+                        <textarea rows="4" name="comment" placeholder="Comment"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="postlist" value="OK" id="plist" required> 
+                        <label for="plist">I agree to all terms of service</label>
+                    </p>
+                    
+                    <p><input class="buy-button" type="submit" name="submit" value="Buy Game | $2.99"></p>
+                </fieldset>
+            </form>
+        </div>
+    
+
+    </div>
+
+    <div id="popup4" class="overlay">
+        <div>
+            <a href="#overlay"> <button class="spread close"> Close </button> </a>
+        </div>
+
+
+        <div class="game_img_scaling">
+            <h2> "Google PackMan" </h2>
+            <img src="images/google-pacman.png" alt="">
+        </div>
+
+
+        <!-- Details -->
+        <div class="a-tab">
+            <input id="tab-4" class="a-check" type="checkbox">
+            <label for="tab-4" class="a-label">Details</label>
+            <div class="a-content">
+                <p>
+                    Pac-Man,[a] originally called Puck Man in Japan, is a 1980 maze action video game developed and released by Namco for arcades. 
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Register form -->
+        <div>
+            <form action="https://www.google.com/logos/2010/pacman10-i.html" method="GET"><!--"POST" er notað þegar upplýsingar eru sendar úr formi-->
+                <fieldset class="register"><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
+                    <legend>Pöntun</legend>
+
+                    <p>
+                        Símanúmer: 
+                        <input  type="text" 
+                                name="sími" 
+                                placeholder="Telephone (7 digits)"
+                                title="Vinsamlegast skráið aðeins 7 tölustafi"
+                                required
+                                pattern="\d{3}(?:[\-\s]?)\d{4}">
+                    </p>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                    <p>
+                        Tölvupóstur: 
+                        <input  type="email" 
+                                name="tölvupóstur" 
+                                placeholder="Email address" 
+                                required>
+                    </p>
+
+                    <p>Skilaboð:
+                        <textarea rows="4" name="comment" placeholder="Comment"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="postlist" value="OK" id="plist" required> 
+                        <label for="plist">I agree to all terms of service</label>
+                    </p>
+                    
+                    <p><input class="buy-button" type="submit" name="submit" value="Buy Game | $2.99"></p>
+                </fieldset>
+            </form>
+        </div>
+    
+
+    </div>
+
+    <div id="popup5" class="overlay">
+        <div>
+            <a href="#overlay"> <button class="spread close"> Close </button> </a>
+        </div>
+
+        <div class="game_img_scaling">
+            <h2> "Tic Tac Toe" </h2>
+            <img src="images/xo.png" alt="">
+        </div>
+
+
+        <!-- Details -->
+        <div class="a-tab">
+            <input id="tab-5" class="a-check" type="checkbox">
+            <label for="tab-5" class="a-label">Details</label>
+            <div class="a-content">
+                <p>
+                    Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os (Canadian or Irish English) is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Register form -->
+        <div>
+            <form action="https://playtictactoe.org/" method="GET"><!--"POST" er notað þegar upplýsingar eru sendar úr formi-->
+                <fieldset class="register"><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
+                    <legend>Pöntun</legend>
+
+                    <p>
+                        Símanúmer: 
+                        <input  type="text" 
+                                name="sími" 
+                                placeholder="Telephone (7 digits)"
+                                title="Vinsamlegast skráið aðeins 7 tölustafi"
+                                required
+                                pattern="\d{3}(?:[\-\s]?)\d{4}">
+                    </p>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                    <p>
+                        Tölvupóstur: 
+                        <input  type="email" 
+                                name="tölvupóstur" 
+                                placeholder="Email address" 
+                                required>
+                    </p>
+
+                    <p>Skilaboð:
+                        <textarea rows="4" name="comment" placeholder="Comment"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="postlist" value="OK" id="plist" required> 
+                        <label for="plist">I agree to all terms of service</label>
+                    </p>
+                    
+                    <p><input class="buy-button" type="submit" name="submit" value="Buy Game | $2.99"></p>
+                </fieldset>
+            </form>
+        </div>
+    
+
+    </div>
+
+    <div id="popup6" class="overlay">
+        <div>
+            <a href="#overlay"> <button class="spread close"> Close </button> </a>
+        </div>
+
+
+        <div class="game_img_scaling">
+            <h2> "Mine Sweeper" </h2>
+            <img src="images/mine_sweeper.jpg" alt="">
+        </div>
+
+
+        <!-- Details -->
+        <div class="a-tab">
+            <input id="tab-6" class="a-check" type="checkbox">
+            <label for="tab-6" class="a-label">Details</label>
+            <div class="a-content">
+                <p>
+                    Minesweeper is a logic puzzle video game genre generally played on personal computers. The game features a grid of clickable tiles, with hidden "mines" (depicted as naval mines in the original game) scattered throughout the board. The objective is to clear the board without detonating any mines, with help from clues about the number of neighboring mines in each field.
+                </p>
+            </div>
+        </div>
+
+        <!-- Register form -->
+        <div>
+            <form action="https://www.google.com/search?q=google+minesweeper&sca_esv=52088a07cb864606&rlz=1C5CHFA_enIS1079IS1079&ei=AEvSZe_nNoO_hbIP2bC-4A0&oq=google+min&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmdvb2dsZSBtaW4qAggAMgsQABiABBiKBRiRAjIFEAAYgAQyCxAAGIAEGIoFGJECMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjiHFCgBViMFXACeACQAQCYAZMBoAG0BqoBAzUuM7gBAcgBAPgBAcICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEC4YgAQYigUYQ8ICChAAGIAEGIoFGEPCAhAQABiABBiKBRhDGLEDGIMBwgIZEC4YgAQYigUYQxiXBRjcBBjeBBjgBNgBAcICCBAAGIAEGLEDwgIFEC4YgATCAgsQABiABBixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIOEAAYgAQYsQMYgwEYyQPCAggQABiABBiSA8ICCxAAGIAEGIoFGJIDiAYBkAYKugYGCAEQARgU&sclient=gws-wiz-serp" method="GET"><!--"POST" er notað þegar upplýsingar eru sendar úr formi-->
+                <fieldset class="register"><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
+                    <legend>Pöntun</legend>
+
+                    <p>
+                        Símanúmer: 
+                        <input  type="text" 
+                                name="sími" 
+                                placeholder="Telephone (7 digits)"
+                                title="Vinsamlegast skráið aðeins 7 tölustafi"
+                                required
+                                pattern="\d{3}(?:[\-\s]?)\d{4}">
+                    </p>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                    <p>
+                        Tölvupóstur: 
+                        <input  type="email" 
+                                name="tölvupóstur" 
+                                placeholder="Email address" 
+                                required>
+                    </p>
+
+                    <p>Skilaboð:
+                        <textarea rows="4" name="comment" placeholder="Comment"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="postlist" value="OK" id="plist" required> 
+                        <label for="plist">I agree to all terms of service</label>
+                    </p>
+                    
+                    <p><input class="buy-button" type="submit" name="submit" value="Buy Game | $2.99"></p>
+                </fieldset>
+            </form>
+        </div>
+    
+
+    </div>
+
+    <script>
+    function changeState(check1) 
+    {
+        var sel = document.getElementById("select1")
+        sel.disabled = check1.checked ? false : true;
+        if (!select1.disabled)
+        {
+            select1.focus();
+        }
+    }
+    </script>
+
+    
+</body>
+</html>

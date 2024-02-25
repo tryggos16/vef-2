@@ -1,0 +1,106 @@
+
+
+
+
+
+/* .div_main {
+    display: flex;
+    border: 2px solid red;
+} */
+
+/* .container {
+    background-color: #888484;
+    height: 100%;
+} */
+
+/* .col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6 {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+} */
+
+.col-1 {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    /* border: 2px solid rgba(51, 51, 51, 0.2); */
+
+}
+
+.small-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blueviolet;
+    background-color: black;
+    margin: 5px auto;
+    overflow: hidden;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (min-width: 20rem) {
+    .small-box {
+        width: 10rem;
+        height: 10rem;
+    }
+
+}
+
+@media screen and (min-width: 30rem) {
+    .small-box {
+        width: 13rem;
+        height: 13rem;
+    }
+}
+
+@media screen and (min-width: 37.5rem) {
+
+
+}
+
+@media screen and (min-width: 48rem) {
+
+    .col-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+/* Larger than tablet */
+@media screen and (min-width: 60rem) {
+    .container {
+        max-width: 60em;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .col-3 {
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 80rem) {
+    .container {
+        max-width: 80em;
+      }
+
+}

@@ -1,0 +1,53 @@
+/* (A) HIDE CHECKBOX & CONTENT */
+.a-check { display: none; }
+.a-content { max-height: 0; overflow: hidden; }
+
+/* (B) SHOW CONTENT ON CHECKED */
+.a-check:checked ~ .a-content { max-height: 500px; overflow: auto; }
+.a-content { 
+    transition: all 0.5s;
+    background-color: rgba(40, 46, 57, 0.95);
+    font-size: 1.2rem;
+}
+
+
+/* (C) COSMETICS */
+/* (C1) WRAPPER */
+.a-tab { 
+    max-width: 600px;
+    margin: auto;
+    background: #2d5faf;
+}
+
+/* (C2) LABEL */
+.a-label {
+  display: block; width: 100%; padding: 10px;
+  font-weight: 700; cursor: pointer;
+  color: #fff;
+}
+
+.a-tab:checked {
+  background: red;
+
+}
+
+/* (C3) LABEL ARROW */
+.a-label { position: relative; }
+.a-label::after {
+  display: block; content: "\25b6";
+  position: absolute; right: 10px; top: 10px;
+  transition: all 0.4s;
+}
+.a-check:checked ~ label::after { transform: rotate(90deg); }
+
+/* (C4) CONTENT */
+.a-check:checked ~ .a-content {
+  padding: 10px;
+}
+
+/* (C5) ENTIRE PAGE */
+img { width: 100%; }
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
