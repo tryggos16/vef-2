@@ -8,7 +8,7 @@ img.addEventListener('click', function() {
     if (toggle) {
         img.src = 'images/gremlin_in_cote.svg';
     }else {
-        img.src = 'images/gremlin_flasher_scaned.svg';
+        img.src = 'images/gremlin_flasher_scaned_gruped.svg';
     }
 
     // img.src = 'images/gremlin_in_cote.svg';
